@@ -1,11 +1,5 @@
 import React from 'react';
-import Form from 'react-jsonschema-form';
 import './App.css';
-
-const schema = {
-  title: 'First name',
-
-};
 
 const App: React.FC = () => (
   <div className="App">
@@ -26,9 +20,6 @@ const App: React.FC = () => (
         Learn React
       </a>
     </header>
-    <div>
-      <Form schema={schema} />
-    </div>
   </div>
 );
 
